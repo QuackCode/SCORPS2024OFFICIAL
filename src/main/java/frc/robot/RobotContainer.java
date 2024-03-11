@@ -36,7 +36,6 @@ public class RobotContainer {
     private final int w_shooterAxis = XboxController.Axis.kRightTrigger.value;
 
     /* Driver Buttons */
-    private final JoystickButton d_angleAlign = new JoystickButton(driver, XboxController.Button.kX.value);
     private final JoystickButton d_zeroGyro = new JoystickButton(driver, XboxController.Button.kY.value);
     private final JoystickButton d_robotCentric = new JoystickButton(driver, XboxController.Button.kLeftBumper.value);
     private final JoystickButton d_slowMode = new JoystickButton(driver, XboxController.Button.kRightBumper.value);
@@ -44,12 +43,10 @@ public class RobotContainer {
 
     /* Weapons Buttons */
     private final JoystickButton w_resetArm = new JoystickButton(weapons, XboxController.Button.kY.value);
-    private final JoystickButton w_upAutoArm = new JoystickButton(weapons, XboxController.Button.kA.value);
     private final JoystickButton w_ampAutoArm = new JoystickButton(weapons, XboxController.Button.kB.value);
     private final JoystickButton w_speakerAutoArm = new JoystickButton(weapons, XboxController.Button.kX.value);
     private final JoystickButton w_instantShootNote = new JoystickButton(weapons, XboxController.Button.kLeftBumper.value);
     private final JoystickButton w_intakeNote = new JoystickButton(weapons, XboxController.Button.kRightBumper.value);
-    private final JoystickButton w_slowMode = new JoystickButton(weapons, XboxController.Button.kLeftStick.value);
     private final JoystickButton w_getWeaponInfoSnapshot = new JoystickButton(weapons, XboxController.Button.kStart.value);
 
     /* Subsystems */
