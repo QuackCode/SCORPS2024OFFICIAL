@@ -6,7 +6,7 @@ import frc.robot.subsystems.Arms;
 import java.util.function.DoubleSupplier;
 
 import edu.wpi.first.wpilibj2.command.Command;
-//joe
+
 public class HeldAutoArm extends Command {
     private Arms a_Arms;
     private DoubleSupplier setPoint;
